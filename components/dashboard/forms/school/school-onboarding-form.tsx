@@ -36,7 +36,7 @@ export default function SchoolOnboardingForm() {
   const router = useRouter();
 
   const [loading, setLoading] = useState(false);
-  const initialImage = "school-logo.png";
+  const initialImage = "/school-logo.png";
   const [imageUrl, setImageUrl] = useState(initialImage);
   async function saveStudent(data: SchoolProps) {
     try {
